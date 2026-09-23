@@ -21,7 +21,7 @@ Después subimos la nueva rama al repositorio remoto:
 git push origin pruebas
 ~~~
 
-![Creación y subida de la rama pruebas](../images/1.1.png)
+![Creación y subida de la rama pruebas](images/1.1.png)
 
 ## 2. Creación del archivo y realización del commit
 
@@ -60,7 +60,7 @@ git merge pruebas
 
 En este caso, Git realiza la unión mediante **Fast-forward**, ya que no existen cambios incompatibles entre las dos ramas.
 
-![Unión de la rama pruebas con main](../images/1.2.png)
+![Unión de la rama pruebas con main](images/1.2.png)
 
 Finalmente, sincronizamos la rama `main` con el repositorio remoto:
 

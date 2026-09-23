@@ -14,7 +14,8 @@ theme:
       scheme: slate
       primary: indigo
       accent: indigo
+
 nav:
-    - Introducción: index.md
-    - Prácticas:
-	- Práctica1: Practica1.md
+  - Introducción: index.md
+  - Prácticas:
+      - Práctica 1: Practica1.md

@@ -9,27 +9,22 @@
 
 ## 1. Creación y configuración del entorno virtual
 
-python3 -m venv .venv
-
-source .venv/bin/activate
-
-python -m pip install mkdocs-material
-
-mkdocs --version
+    python3 -m venv .venv
+    source .venv/bin/activate
+    python -m pip install mkdocs-material
+    mkdocs --version
 
 ---
 
 ## 2. Creación y estructura del proyecto
 
-mkdocs new mkdocs
-
-cd mkdocs
+    mkdocs new mkdocs
+    cd mkdocs
 
 Añadido a `.gitignore`:
 
-.venv/
-
-site/
+    .venv/
+    site/
 
 ---
 
@@ -47,17 +42,16 @@ Configuración de `mkdocs.yml` aplicando el tema `material` y la paleta de color
 
 ## 5. Previsualización y generación del sitio web
 
-mkdocs serve
-
-mkdocs build
+    mkdocs serve
+    mkdocs build
 
 ---
 
 ## 6. Publicación en GitHub Pages
 
-mkdocs gh-deploy
+    mkdocs gh-deploy
 
-Comprobación en GitHub (Settings -> Pages) seleccionando la rama `gh-pages` y la carpeta `/(root)`.
+Comprobación en GitHub (**Settings → Pages**) seleccionando la rama `gh-pages` y la carpeta `/(root)`.
 
 ![Captura 1](images/3.png)
 

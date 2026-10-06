@@ -28,8 +28,6 @@ Después de realizar el cambio, comprobamos las modificaciones y las añadimos a
 git add -A
 ~~~
 
-![Modificando el README](images/2.1.png)
-
 ## 3. Creación del commit
 
 Una vez añadido el cambio, realizamos un commit con un mensaje que indique qué se ha modificado:
@@ -54,7 +52,7 @@ El resultado muestra que los cambios se han enviado correctamente a GitHub:
 master -> master
 ~~~
 
-![Commit y subida de los cambios](images/2.2.png)
+![Modificando el README](images/2.1.png)
 
 ## 5. Creación del Pull Request
 
@@ -65,6 +63,8 @@ Desde el botón **Contribute** seleccionamos la opción para abrir un nuevo Pull
 ~~~text
 Contribute → Open pull request
 ~~~
+
+![Subida de los cambios](images/2.2.png)
 
 ## 6. Pull Request
 

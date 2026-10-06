@@ -10,8 +10,11 @@
 ## 1. Creación y configuración del entorno virtual
 
 python3 -m venv .venv
+
 source .venv/bin/activate
+
 python -m pip install mkdocs-material
+
 mkdocs --version
 
 ---
@@ -19,10 +22,13 @@ mkdocs --version
 ## 2. Creación y estructura del proyecto
 
 mkdocs new mkdocs
+
 cd mkdocs
 
 Añadido a `.gitignore`:
+
 .venv/
+
 site/
 
 ---
@@ -42,6 +48,7 @@ Configuración de `mkdocs.yml` aplicando el tema `material` y la paleta de color
 ## 5. Previsualización y generación del sitio web
 
 mkdocs serve
+
 mkdocs build
 
 ---
